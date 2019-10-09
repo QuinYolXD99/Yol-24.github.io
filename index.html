@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IOT Switch</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+</head>
+
+<body>
+
+    <center>
+        <br><br>
+        <div class="ui card" style="width:400px">
+            <div class="content">
+                <div class="header">IOT BULB</div>
+            </div>
+            <div class="content">
+                <img class="ui centered small image" src="img/bulboff.png">
+                <br>
+                <br>
+                <div class="centered header" >Device Status : <span id="status">OFF</span></div>
+            </div>
+            <div class="extra content">
+                <button class="ui positive button">ON</button>
+                <button class="ui negative button">OFF</button>
+            </div>
+        </div>
+    </center>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.js" -->
+    <!-- integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+    <script src="scripts/browserMqtt.js"></script>
+    <script src="scripts/controller.js"></script>
+</body>
+
+</html>
